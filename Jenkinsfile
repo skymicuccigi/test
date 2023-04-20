@@ -30,7 +30,7 @@ pipeline {
             steps {
                 echo 'Deploying....'
                 script {
-                    sh 'echo "Deployment d completed"'
+                    sh 'echo "Deployment completed"'
                 }
             }
         }
