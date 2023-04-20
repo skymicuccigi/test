@@ -33,11 +33,6 @@ pipeline {
                     sh 'echo "Deployment completed"'
                 }
             }
-        }
-        stage('exit status') {
-            steps {
-                echo 'Finished!'
-            }
-        }            
+        }     
     }
 }
