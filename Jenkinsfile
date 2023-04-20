@@ -5,7 +5,7 @@ pipeline {
         stage('Date') {
             steps {
                 script {
-                    sh 'echo "$(date)"'
+                    sh 'echo "$(date)" >> /tmp/testpipeline'
                 }
             }
         }
