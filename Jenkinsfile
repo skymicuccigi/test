@@ -2,6 +2,11 @@ pipeline {
     agent any
 
     stages {
+        stage('Date') {
+            steps {
+                echo "$(date)"
+            }
+        }
         stage('Build') {
             steps {
                 echo 'Building..'
