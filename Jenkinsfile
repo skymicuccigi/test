@@ -3,9 +3,7 @@ pipeline {
 
     stages {
         stage('Date') {
-            steps {
                 sh echo "$(date)"
-            }
         }
         stage('Build') {
             steps {
